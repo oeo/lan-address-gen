@@ -48,21 +48,24 @@ options:
   --salt <salt> add some spice to your hash
 ```
 
-#### simple
+simple
+
 ```bash
 lan-address-gen proxmox
 
 10.248.60.218
 ```
 
-#### custom salt
+specify a custom salt
+
 ```bash
 lan-address-gen proxmox --salt test
 
 10.231.140.108
 ```
 
-#### verbose with ping verification
+verbose with ping verification
+
 ```bash
 lan-address-gen proxmox --ping --verbose
 
