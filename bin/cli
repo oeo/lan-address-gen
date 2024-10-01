@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+const process = require('process');
+process.env.LAN_ADDRESS_CLI = 1;
+
+require(__dirname + '/../lib/lan-address-gen.js');
+

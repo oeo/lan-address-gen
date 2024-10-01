@@ -1,0 +1,21 @@
+{
+  "name": "lan-address-gen",
+  "version": "1.0.0",
+  "description": "generate deterministic lan addresses based on strings (hostnames)",
+  "main": "lan-address-gen.js",
+  "bin": {
+    "lan-address-gen": "./bin/cli"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "taky",
+  "license": "mit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oeo/lan-address-gen.git"
+  },
+  "dependencies": {
+    "jstat": "^1.9.6"
+  }
+}
