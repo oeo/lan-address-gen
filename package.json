@@ -1,6 +1,6 @@
 {
   "name": "lan-address-gen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "generate deterministic lan addresses based on strings (hostnames)",
   "main": "lan-address-gen.js",
   "bin": {
